@@ -2,9 +2,9 @@ import snowflake.connector
 
 # Set up a connection to Snowflake
 conn = snowflake.connector.connect(
-  user='MEENA94',
-  password='Mine1234',
-  account='jab42011.prod3.us-west-2',
+  user='<username>',
+  password='<pwd>',
+  account='<account detail url>',
   warehouse='COMPUTE_WH',
   database='SAMPLEPY',
   schema='PUBLIC'
